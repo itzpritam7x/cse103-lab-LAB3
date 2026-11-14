@@ -1,33 +1,43 @@
+# Markdown Syntax Guide
 
-
-
+## 1. Headings
 # Heading 1
 ## Heading 2
 ### Heading 3
 
 ## 2. Text Formatting
-**Bold Text**
+**Bold text**
+*Italic text*
+~~Strikethrough text~~
 
-*Italic Text*
+## 3. Unordered List
+- Item A
+- Item B
+  - Nested item B1
 
-~~Strikethrough Text~~
+## 4. Ordered List
+1. First step
+2. Second step
 
-## 3. Lists
-- Python
-- Linux
-- Git
+## 5. Inline Code
+`print("Hello")`
 
-1. Install Git
-2. Create Repository
-3. Push to GitHub
+## 6. Fenced Code Block
+```python
+def greet(name):
+    return f"Hello, {name}!"
+```
 
-## 4. Links
+## 7. Hyperlink
 [GitHub](https://github.com)
 
-## 5. Code
-Inline code: `print("Hello World")`
+## 8. Table
+| Column 1 | Column 2 | Column 3 |
+|----------|:--------:|----------:|
+| Left | Centre | Right |
 
-```python
-print("Hello, Git!")
+## 9. Blockquote
+> An important note or reference goes here.
 
-
+## 10. Horizontal Divider
+---
